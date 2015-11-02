@@ -3,16 +3,19 @@ h1{
 }
 
 .story1Slide1{
-	background: green;
+	background: #CFF09E;
 }
 .story1Slide2{
-	background: blue;
+	background: #A8DBA8;
 }
 .story1Slide3{
-	background: green;
+	background: #79BD9A;
 }
 .story1Slide4{
-	background: blue;
+	background: #3B8686;
+}
+.story1Slide5{
+	background: #0B486B;
 }
 
 .story2Slide1{
