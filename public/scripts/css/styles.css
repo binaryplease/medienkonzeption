@@ -2,6 +2,11 @@ h1{
 	text-align: center;
 }
 
+.tutorial{
+	background: url('../../img/start.png');
+	background-size: cover;
+}
+
 .story1Slide1{
 	background: #CFF09E;
 }
@@ -42,4 +47,8 @@ h1{
 }
 .story3Slide4{
 	background: #2b6C6D;
+}
+
+.jumbotron{
+	background: rgba(238, 238, 238,0.7);
 }
