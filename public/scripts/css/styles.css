@@ -1,0 +1,42 @@
+h1{
+	text-align: center;
+}
+
+.story1Slide1{
+	background: green;
+}
+.story1Slide2{
+	background: blue;
+}
+.story1Slide3{
+	background: green;
+}
+.story1Slide4{
+	background: blue;
+}
+
+.story2Slide1{
+	background: red;
+}
+.story2Slide2{
+	background: blue;
+}
+.story2Slide3{
+	background: red;
+}
+.story2Slide4{
+	background: blue;
+}
+
+.story3Slide1{
+	background: yellow;
+}
+.story3Slide2{
+	background: blue;
+}
+.story3Slide3{
+	background: yellow;
+}
+.story3Slide4{
+	background: blue;
+}
