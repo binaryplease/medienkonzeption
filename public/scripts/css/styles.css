@@ -3,47 +3,108 @@
 	background-size: cover;
 }
 
-.story1Slide1{
+
+.akt1slide1{
 	background: #CFF09E;
 }
-.story1Slide2{
+.akt1slide2{
 	background: #A8DBA8;
 }
-.story1Slide3{
+.akt1slide3{
 	background: #79BD9A;
 }
-.story1Slide4{
+.akt1slide4{
 	background: #3B8686;
 }
-.story1Slide5{
+.akt1slide5{
 	background: #0B486B;
 }
 
-.story2Slide1{
+
+.akt2slide1{
 	background: #FAD089;
 }
-.story2Slide2{
+.akt2slide2{
 	background: #FF9C5B;
 }
-.story2Slide3{
+.akt2slide3{
 	background: #F5634A;
 }
-.story2Slide4{
+.akt2slide4{
+	background: #ED303C;
+}
+.akt2slide5{
+	background: #0B486B;
+}
+
+
+.akt3slide1{
+	background: #EAFCCC;
+}
+.akt3slide2{
+	background: #40E4CB;
+}
+.akt3slide3{
+	background: #26BDB8;
+}
+.akt3slide4{
+	background: #2b6C6D;
+}
+.akt3slide5{
+	background: #2b6C6D;
+}
+
+.akt4slide1{
+	background: #CFF09E;
+}
+.akt4slide2{
+	background: #A8DBA8;
+}
+.akt4slide3{
+	background: #79BD9A;
+}
+.akt4slide4{
+	background: #3B8686;
+}
+.akt4slide5{
+	background: #0B486B;
+}
+
+
+.akt5slide1{
+	background: #FAD089;
+}
+.akt5slide2{
+	background: #FF9C5B;
+}
+.akt5slide3{
+	background: #F5634A;
+}
+.akt5slide4{
+	background: #ED303C;
+}
+.akt5slide5{
 	background: #ED303C;
 }
 
-.story3Slide1{
+
+.akt6slide1{
 	background: #EAFCCC;
 }
-.story3Slide2{
+.akt6slide2{
 	background: #40E4CB;
 }
-.story3Slide3{
+.akt6slide3{
 	background: #26BDB8;
 }
-.story3Slide4{
+.akt6slide4{
 	background: #2b6C6D;
 }
+.akt6slide5{
+	background: #2b6C6D;
+}
+
+
 
 .jumbotron{
 	background: rgba(238, 238, 238,0.7);
