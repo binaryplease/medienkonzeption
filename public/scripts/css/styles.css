@@ -11,6 +11,13 @@
     height: 150px;
 }
 
+.logo-gross{
+	width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .akt1slide1{
 	background: url('../../img/back-akt1.jpg');
