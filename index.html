@@ -15,8 +15,8 @@
     <script type="text/javascript" src="public/scripts/fullpage/jquery.fullPage.js"></script>
     <script type="text/javascript" src="public/scripts/js/scripts.js"></script>
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.css" rel="stylesheet" type="text/css" />
 
 
   </head>
@@ -73,6 +73,88 @@
 		        <div class="jumbotron">
 		            <h1>Geschichte des Kölner Karnevals</h1>
 		            <p>text text text</p>
+
+
+
+
+
+
+
+
+        <div id="visualization"></div>
+
+        <script type="text/javascript">
+                // DOM element where the Timeline will be attached
+                var container = document.getElementById('visualization');
+                var item1 = '<br><img src="./public/img/timeline/1.jpg" style="width: 70px; height: 70px;">';
+                var item2 = '<br><img src="./public/img/timeline/2.jpg" style="width: 70px; height: 70px;">';
+                var item3 = '<br><img src="./public/img/timeline/3.jpg" style="width: 70px; height: 70px;">';
+                var item4 = '<br><img src="./public/img/timeline/4.jpg" style="width: 70px; height: 70px;">';
+                var item5 = '<br><img src="./public/img/timeline/5.jpg" style="width: 70px; height: 70px;">';
+                var item6 = '<br><img src="./public/img/timeline/6.jpg" style="width: 70px; height: 70px;">';
+                var item7 = '<br><img src="./public/img/timeline/7.jpg" style="width: 70px; height: 70px;">';
+                var item8 = '<br><img src="./public/img/timeline/8.jpg" style="width: 70px; height: 70px;">';
+                var item9 = '<br><img src="./public/img/timeline/9.jpg" style="width: 70px; height: 70px;">';
+
+                // Create a DataSet (allows two way data-binding)
+                var items = new vis.DataSet([
+
+
+
+                        {
+                                id: 3,
+                                start: '1736',
+                                content: 'Erste Redoute in einem <br>Adelshaus am Neumarkt.' + item3
+                        }, {
+                                id: 4,
+                                start: '1860',
+                                content: 'Erster "Geisterzug" am Abend <br>des Karnevalssamstag.' + item4
+                        }, {
+                                id: 5,
+                                start: '1902',
+                                content: 'Es entsteht die Ehrengarde' + item5
+                        }, {
+                                id: 6,
+                                start: '1906',
+                                content: 'Entstehung der Prizengarde' + item6
+                        }, {
+                                id: 8,
+                                start: '1915',
+                                content: 'Durch den Krieg und die <br>Besetzung des Rheinlandes <br>kommt kein Zug zustande' + item8
+                        }, {
+                                id: 1,
+                                start: '1923',
+                                content: 'Das „Festordnende Komitee“ <br>wird gegruendet' + item1
+                        }, {
+                                id: 2,
+                                start: '1931',
+                                content: 'Die Weltwirtschaftskrise <br>stoppt den Zug' + item2
+                        }, {
+                                id: 9,
+                                start: '1940',
+                                content: 'Der Zweite Weltkrieg und <br>verursacht Ausfälle.' + item9
+                        }, {
+                                id: 7,
+                                start: '1991',
+                                content: 'Rosenmontag fällt aus<br> wegen zweitem Golfkrieg' + item7
+                        }
+
+
+
+                ]);
+
+                // Configuration for the Timeline
+                var options = {};
+
+                // Create a Timeline
+                var timeline = new vis.Timeline(container, items, options);
+        </script>
+
+
+
+
+
+
 		          </div>
 	        </div>
         </div>
