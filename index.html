@@ -26,11 +26,10 @@
     <div id="fullpage">
       <div class="section tutorial">
         <div class="container">
-          
+          <div class="jumbotron">
             <img src="public/img/logo.png" class="logo-gross" />
             <p>&nbsp;</p>
-          <div class="jumbotron"
-            <p style="text-align: center" class="css3-bounce-effect" style="color: white">
+            <p style="text-align: center" class="css3-bounce-effect">
 	            <br /><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
 	            <br />voriger Akt<br /><br />
 	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -116,7 +115,7 @@
                         }, {
                                 id: 6,
                                 start: '1906',
-                                content: 'Bekommt Prinz Karneval <br>seine Prinzengarde.' + item6
+                                content: 'Entstehung der Prizengarde' + item6
                         }, {
                                 id: 8,
                                 start: '1915',
@@ -285,9 +284,12 @@
 	        </div>
         </div>
         <div class="slide akt6slide4">
-          <div class="container">
-          	  <iframe src="https://www.google.com/maps/d/embed?mid=zk6ZS7F_p8AA.k-ZGstgxHQ8g" width="750" height="480"></iframe>
-            </div>
+        	  <div class="container">
+	        	<div class="jumbotron">
+		            <h1>Der Weg auf einer Karte</h1>
+		            <p>text text text</p>
+	          </div>
+	        </div>
         </div>
         
       </div>
@@ -306,16 +308,12 @@
 		  	manchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
     		menu: '#myMenu'
 		  });
-
-       $.fn.fullpage.setMouseWheelScrolling(false);
-       $.fn.fullpage.setAllowScrolling(false);
 		});
 
 		setTimeout(function(){
 		    $.fn.fullpage.reBuild();
 		}, 500);
     </script>
-
 
   </body>
 </html>
