@@ -159,3 +159,15 @@
     border-color: transparent #893939 transparent transparent;
     border-width: 15px 50px 15px 0;
 }
+
+.impressum{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+
+.navi{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
