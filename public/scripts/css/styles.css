@@ -20,115 +20,108 @@
 
 
 .akt1slide1{
-	background: url('../../img/back-akt1.jpg');
+	background: url('../../img/genesis1.png');
 	background-size: cover;
 }
 .akt1slide2{
-	background: #A8DBA8;
+	/* Video background */
 }
 .akt1slide3{
-	background: #79BD9A;
+	background: url('../../img/genesis2.png');
+	background-size: cover;
 }
 .akt1slide4{
-	background: #3B8686;
+	/* Video background */
 }
 .akt1slide5{
-	background: #0B486B;
+	background: url('../../img/genesis3.png');
+	background-size: cover;
 }
 
 
 .akt2slide1{
-	background: #FAD089;
+	background: url('../../img/aufbruch1.png');
+	background-size: cover;
 }
 .akt2slide2{
-	background: #FF9C5B;
+	/* Video background */
 }
 .akt2slide3{
-	background: #F5634A;
-}
-.akt2slide4{
-	background: #ED303C;
-}
-.akt2slide5{
-	background: #0B486B;
+	/* Video background */
 }
 
 
 .akt3slide1{
-	background: url('../../img/back-akt3.jpg');
+	background: url('../../img/fest1.png');
 	background-size: cover;
 }
 .akt3slide2{
-	background: #40E4CB;
+	/* Video background */
 }
 .akt3slide3{
-	background: #26BDB8;
+	background: url('../../img/fest2.png');
+	background-size: cover;
 }
 .akt3slide4{
-	background: #2b6C6D;
-}
-.akt3slide5{
-	background: #2b6C6D;
+	/* Video background */
 }
 
+
 .akt4slide1{
-	background: url('../../img/back-akt4.jpg');
+	background: url('../../img/regression1.png');
 	background-size: cover;
 }
 .akt4slide2{
-	background: #A8DBA8;
+	/* Video background */
 }
 .akt4slide3{
-	background: #79BD9A;
+	background: url('../../img/regression2.png');
+	background-size: cover;
 }
 .akt4slide4{
-	background: #3B8686;
-}
-.akt4slide5{
-	background: #0B486B;
+	background: url('../../img/regression3.jpg');
+	background-size: cover;
 }
 
 
 .akt5slide1{
-	background: #FAD089;
+	background: url('../../img/reinkarnation1.png');
+	background-size: cover;
 }
 .akt5slide2{
-	background: #FF9C5B;
+	/* Video background */
 }
 .akt5slide3{
-	background: #F5634A;
+	/* Video background */
 }
 .akt5slide4{
-	background: #ED303C;
-}
-.akt5slide5{
-	background: #ED303C;
+	background: url('../../img/reinkarnation2.png');
+	background-size: cover;
 }
 
 
 .akt6slide1{
-	background: #EAFCCC;
+	background: url('../../img/rueckweg1.png');
+	background-size: cover;
 }
 .akt6slide2{
-	background: #40E4CB;
+	/* Video background */
 }
 .akt6slide3{
-	background: #26BDB8;
+	background: url('../../img/rueckweg2.png');
+	background-size: cover;
 }
 .akt6slide4{
-	background: #2b6C6D;
+	background: url('../../img/rueckweg3.png');
+	background-size: cover;
 }
-.akt6slide5{
-	background: #2b6C6D;
-}
-
 
 
 .jumbotron{
 	background: rgba(238, 238, 238,0.7);
 }
 
-video#bgvid { 
+.video#bgvid { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -144,12 +137,23 @@ video#bgvid {
 
 #fp-nav ul li a span, 
 .fp-slidesNav ul li a span {
-    background: white;
+    background: #6DDFDB;
 }
       
 #fp-nav ul li a.active span, 
 .fp-slidesNav ul li a.active span, 
 #fp-nav ul li:hover a.active span, 
 .fp-slidesNav ul li:hover a.active span {
-	background: white;
+	background: #6DDFDB;
+	border: 3px solid;
+	border-color: #893939;
+}
+
+.fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #893939;
+    border-width: 15px 0 15px 50px;
+}
+.fp-controlArrow.fp-prev {
+    border-color: transparent #893939 transparent transparent;
+    border-width: 15px 50px 15px 0;
 }
