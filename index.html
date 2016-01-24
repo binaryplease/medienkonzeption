@@ -26,10 +26,11 @@
     <div id="fullpage">
       <div class="section tutorial">
         <div class="container">
-          <div class="jumbotron">
+          
             <img src="public/img/logo.png" class="logo-gross" />
             <p>&nbsp;</p>
-            <p style="text-align: center" class="css3-bounce-effect">
+          <div class="jumbotron"
+            <p style="text-align: center" class="css3-bounce-effect" style="color: white">
 	            <br /><span class="glyphicon glyphicon-chevron-up" aria-hidden="true"></span>
 	            <br />voriger Akt<br /><br />
 	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -284,12 +285,9 @@
 	        </div>
         </div>
         <div class="slide akt6slide4">
-        	  <div class="container">
-	        	<div class="jumbotron">
-		            <h1>Der Weg auf einer Karte</h1>
-		            <p>text text text</p>
-	          </div>
-	        </div>
+          <div class="container">
+          	  <iframe src="https://www.google.com/maps/d/embed?mid=zk6ZS7F_p8AA.k-ZGstgxHQ8g" width="750" height="480"></iframe>
+            </div>
         </div>
         
       </div>
@@ -308,12 +306,16 @@
 		  	manchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
     		menu: '#myMenu'
 		  });
+
+       $.fn.fullpage.setMouseWheelScrolling(false);
+       $.fn.fullpage.setAllowScrolling(false);
 		});
 
 		setTimeout(function(){
 		    $.fn.fullpage.reBuild();
 		}, 500);
     </script>
+
 
   </body>
 </html>
