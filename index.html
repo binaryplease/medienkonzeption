@@ -41,7 +41,7 @@
         	<img src="public/img/Ueberschriften/genesis.png" class="img-responsive" style="margin: auto;" />
         </div>
         <div class="slide akt1slide2">
-        	<video controls class="video" >
+        	<video controls class="video" poster="public/img/thumbnails/thumb_interview.png">
 			    <source src="public/videos/genesis_1.mp4" type="video/mp4">
 			</video>
         </div>
@@ -51,7 +51,7 @@
             </div>
         </div>
         <div class="slide akt1slide4">
-        	<video controls class="video">
+        	<video controls class="video" poster="public/img/thumbnails/thumb_genesis.png">
 			    <source src="public/videos/genesis_2.mp4" type="video/mp4">
 			</video>
         </div>
@@ -72,12 +72,12 @@
 	        <img src="public/img/Ueberschriften/aufbruch.png" class="img-responsive" style="margin: auto;" />
         </div>
         <div class="slide akt2slide2">
-        	<video controls class="video">
+        	<video controls class="video" poster="public/img/thumbnails/thumb_interview.png">
 			    <source src="public/videos/aufbruch_1.mp4" type="video/mp4">
 			</video>
         </div>
         <div class="slide akt2slide3">
-        	<video controls class="video">
+        	<video controls class="video" poster="public/img/thumbnails/thumb_aufbruch.png">
                 <source src="public/videos/aufbruch_2.mp4" type="video/mp4">
             </video>
         </div>
@@ -90,7 +90,7 @@
 	        <img src="public/img/Ueberschriften/fest.png" class="img-responsive" style="margin: auto;" />
         </div>
         <div class="slide akt3slide2">
-        	<video controls class="video">
+        	<video controls class="video" poster="public/img/thumbnails/thumb_interview.png">
 			    <source src="public/videos/fest_1.mp4" type="video/mp4">
 			</video>
         </div>
@@ -114,7 +114,7 @@
 	        <img src="public/img/Ueberschriften/regression.png" class="img-responsive" style="margin: auto;" />
         </div>
         <div class="slide akt4slide2">
-        	<video controls class="video">
+        	<video controls class="video" poster="public/img/thumbnails/thumb_interview.png">
 			    <source src="public/videos/regression_1.mp4" type="video/mp4">
 			</video>
         </div>
@@ -141,7 +141,7 @@
 	        <img src="public/img/Ueberschriften/reinkarnation.png" class="img-responsive" style="margin: auto;" />
         </div>
         <div class="slide akt5slide2">
-        	<video controls class="video">
+        	<video controls class="video" poster="public/img/thumbnails/thumb_interview.png">
 			    <source src="public/videos/reinkarnation_1.mp4" type="video/mp4">
 			</video>
 	    </div>
@@ -154,7 +154,9 @@
 	        </div>
         </div>
         <div class="slide akt5slide3">
-            
+            <video controls class="video" poster="public/img/thumbnails/thumb_interview.png">
+                <source src="public/videos/reinkarnation_2.mp4" type="video/mp4">
+            </video>
         </div>
         
       </div>
@@ -166,7 +168,7 @@
 	        <img src="public/img/Ueberschriften/rueckweg.png" class="img-responsive" style="margin: auto;" />
         </div>
         <div class="slide akt6slide2">
-        	<video controls class="video">
+        	<video controls class="video" poster="public/img/thumbnails/thumb_interview.png">
                 <source src="public/videos/rueckweg_1.mp4" type="video/mp4">
             </video>
         </div>
@@ -225,9 +227,6 @@
 
                 // Create a DataSet (allows two way data-binding)
                 var items = new vis.DataSet([
-
-
-
                         {
                                 id: 3,
                                 start: '1736',
@@ -265,9 +264,6 @@
                                 start: '1991',
                                 content: 'Rosenmontag fällt aus<br> wegen zweitem Golfkrieg' + item7
                         }
-
-
-
                 ]);
 
                 // Configuration for the Timeline
@@ -276,8 +272,8 @@
                     height: '400px',
                     start: '1600',
                     end: '2016',
-                    zoomMax: '31536000000000',
-                    zoomMin: '3153600000000'
+                    zoomMax: 31536000000000,
+                    zoomMin: 3153600000000
 
                 };
 
